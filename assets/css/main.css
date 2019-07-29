@@ -1807,6 +1807,10 @@ input, select, textarea {
 		margin: 0 0 1em 0;
 	}
 
+	article .skillIcon {
+		max-height: 125px;
+		margin:0 20%;
+	}
 /* Form */
 
 	form {
@@ -2642,9 +2646,10 @@ input, select, textarea {
 			display: -webkit-flex;
 			display: -ms-flex;
 			display: flex;
+			flex-direction: column;
 			margin: 0 0 3em 3em;
 			position: relative;
-			width: calc(50% - 3em);
+			width: calc(25% - 3em);
 		}
 
 			.features article:nth-child(2n - 1) {
@@ -2709,6 +2714,7 @@ input, select, textarea {
 				-webkit-flex-shrink: 1;
 				-ms-flex-shrink: 1;
 				flex-shrink: 1;
+				text-align: center;
 				width: 100%;
 			}
 
