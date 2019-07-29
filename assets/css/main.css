@@ -1807,6 +1807,10 @@ input, select, textarea {
 		margin: 0 0 1em 0;
 	}
 
+	article .skillIcon {
+		max-height: 125px;
+		margin:0 20%;
+	}
 /* Form */
 
 	form {
