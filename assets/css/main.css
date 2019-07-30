@@ -3610,3 +3610,38 @@ input, select, textarea {
 			margin-top: 0;
 			padding-top: 0;
 		}
+
+	.projectInfo header {
+		display: flex;
+		align-items: center;
+
+	}
+		.projectContent {
+			width: 50%;
+			justify-content: center;
+			padding: 10px;
+		}
+
+		@media (max-width:660px) {
+			.projectContent {
+				width: 100%;
+			}
+
+			.projectInfo header {
+				flex-direction: column;
+			}
+		}
+
+		.projectContent a:hover {
+			text-decoration: underline;
+		}
+			.projectContent p {
+				font-family: "Open Sans", sans-serif;
+				text-transform: none;
+				font-size: .8rem;
+
+			}
+
+		#sidebar{
+			display: none;
+		}
